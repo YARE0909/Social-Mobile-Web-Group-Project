@@ -15,7 +15,7 @@ export default function Index() {
         </div>
         {/* Vibrant Contact Form */}
         <div className="max-w-5xl w-full mx-auto p-8 bg-white rounded-xl border-4 border-black">
-          <form>
+          <form action="https://getform.io/f/aolmjvnb" method="POST">
             <div className="mb-4">
               <label
                 htmlFor="name"
@@ -25,6 +25,7 @@ export default function Index() {
               </label>
               <input
                 id="name"
+                name="name"
                 type="text"
                 placeholder="Your name"
                 className="w-full p-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
@@ -39,6 +40,7 @@ export default function Index() {
               </label>
               <input
                 id="email"
+                name="email"
                 type="email"
                 placeholder="you@example.com"
                 className="w-full p-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
@@ -53,6 +55,7 @@ export default function Index() {
               </label>
               <textarea
                 id="message"
+                name="message"
                 rows={4}
                 placeholder="Your message"
                 className="w-full h-[400px] p-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
