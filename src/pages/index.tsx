@@ -67,7 +67,7 @@ export default function Home() {
           <div>
             <h1 className="font-bold text-6xl">JomVia Around The World!</h1>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center text-center">
             <h1 className="text-2xl">Your story starts with a Jom</h1>
             <h1 className="text-xl">One click. Endless memories.</h1>
           </div>
