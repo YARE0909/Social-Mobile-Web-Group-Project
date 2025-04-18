@@ -27,7 +27,7 @@ export default function Home() {
                 className="w-full  h-[700px] object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                <h2 className="text-white text-3xl font-bold">
+                <h2 className="text-white text-3xl font-bold text-center">
                   Explore Timeless Cities
                 </h2>
               </div>
@@ -41,7 +41,7 @@ export default function Home() {
                 className="w-full h-[700px] object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                <h2 className="text-white text-3xl font-bold">
+                <h2 className="text-white text-3xl font-bold text-center">
                   Chase Sunsets, Not Deadlines
                 </h2>
               </div>
@@ -55,7 +55,7 @@ export default function Home() {
                 className="w-full h-[700px] object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                <h2 className="text-white text-3xl font-bold">
+                <h2 className="text-white text-3xl font-bold text-center">
                   Create Stories Worth Telling
                 </h2>
               </div>

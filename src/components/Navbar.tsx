@@ -86,7 +86,7 @@ export default function Navbar() {
               Home
             </a>
           </div>
-          <div className="w-full border-b-4 border-b-black flex items-center justify-center pb-4">
+          <div className="w-full border-b-4 border-b-black flex items-center justify-center py-2">
             <a
               className="font-bold"
               href="/about"
